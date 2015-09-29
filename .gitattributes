@@ -1,0 +1,6 @@
+# To diff jdip files as XML, you *must* have the following in your git config:
+# ```
+# [diff "xml"]
+#   textconv = xmllint --format --huge
+# ```
+*.jdip diff=xml
